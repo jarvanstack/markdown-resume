@@ -1,28 +1,44 @@
-## markdown-resume
+<p align="center">
+<img src="images/logo.png" width="200px"/>
+<br>
+<p align="center">
+ <img src="https://img.shields.io/github/stars/jarvanstack/markdown-resume" />
+ <img src="https://img.shields.io/github/issues/jarvanstack/markdown-resume" />
+ <img src="https://img.shields.io/github/forks/jarvanstack/markdown-resume" />
+</p>
+</p>
 
-Markdown 简历模版, typroa 一键简历生成
+# markdown-resume
 
-![image-20220127145801116](images/image-20220127145801116.png)
+typroa 简历主题, 保证导出 PDF 简历**刚好一页**
 
-### 功能:
+## 1. 功能
 
-* markdown: 程序员使用 markdown 写简历, 简单方便又能给面试一定加分
-* pdf 排版紧凑: 更加紧凑的 pdf 导出, 导出的简历只有一页(一页的简历更合适面试求职)
+* **简单**: 因为不用关心排版, 只需要关心内容
+* **面试加分**: 因为面试官也是程序员, 能给面试一定加分
+* **一页PDF**: 因为一页的简历更合适面试求职, 该样式会保证简历刚好一页
 
-### 使用 typroa 导出简历
 
-#### (1) clone 项目
+## 2. 效果
 
-```bash
-git@github.com:dengjiawen8955/markdown-resume.git
-```
+![image-20220127145801116](images/image7.png)
 
-#### (2) 新增 typroa 主题
+# 快速开始
 
-复制本项目下的 github-resume.css
+## 1. 安装 typora
 
-粘贴到 typroa 主题文件夹
+### 1.1. 下载
 
+官网地址: https://typora.io/
+
+中文地址: https://typora.cn/
+
+### 1.2. 安装
+
+安装过程很简单, 就不赘述了
+
+
+## 2. 将 github-resume.css 复制到 Typora 的主题文件夹
 
 
 打开typroa-> 文件 -> 偏好配置 -> 外观 -> 打开主题文件夹
@@ -33,24 +49,24 @@ git@github.com:dengjiawen8955/markdown-resume.git
 
 重启 typora
 
-#### (3) 更换 typroa 主题
+## 3. 更换 typroa 主题
 
 ![image-20220127145315638](images/image-20220127145315638.png)
 
-#### (4) 导出 pdf
+## 4. 导出 HTML
 
-修改本项目下的简历模板 resume-template.md 之后导出 pdf 
+修改本项目下的简历模板 resume-template.md 之后导出 HTML 
 
 > 当然你也可以更加自己的喜好不使用 resume-template.md 模板, 自己写一份
 
-文件 -> 导出 -> PDF 
+文件 -> 导出 -> HTML 
 
-![image-20220127145452400](images/image-20220127145452400.png)
+![Alt text](images/image6.png)
+
+## 5. 打印 PDF
+
+* 使用浏览器打开导出的 HTML
+* Ctrl + P 打印, 选择打印机为 PDF
 
 
-
-我们可以看到导出的 PDF 紧凑了许多, 很合适用来写简历
-
-
-
-![image-20220127145801116](images/image-20220127145801116.png)
+![Alt text](images/image7.png)

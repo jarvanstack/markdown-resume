@@ -39,38 +39,38 @@
   }
 
 html {
-    font-size: 16px;
+    font-size: 10px;
     -webkit-font-smoothing: antialiased;
 }
 
 body {
     font-family: "Open Sans","Clear Sans", "Helvetica Neue", Helvetica, Arial, 'Segoe UI Emoji', sans-serif;
     color: rgb(51, 51, 51);
-    line-height: 1.6;
+    line-height: 1;
 }
 
 #write {
-    max-width: 860px;
+    max-width: 2000px;
   	margin: 0 auto;
-  	padding: 30px;
-    padding-bottom: 100px;
+  	padding: 5px;
+    padding-bottom: 50px;
 }
 
 @media only screen and (min-width: 1400px) {
 	#write {
-		max-width: 1024px;
+		max-width: 1350px;
 	}
 }
 
 @media only screen and (min-width: 1800px) {
 	#write {
-		max-width: 1200px;
+		max-width: 1750px;
 	}
 }
 
 #write > ul:first-child,
 #write > ol:first-child{
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 a {
@@ -86,7 +86,7 @@ h6 {
     margin-top: 1rem;
     margin-bottom: 1rem;
     font-weight: bold;
-    line-height: 1.4;
+    line-height: 1;
     cursor: text;
 }
 h1:hover a.anchor,
@@ -122,13 +122,13 @@ h6 code {
     font-size: inherit;
 }
 h1 {
-    font-size: 2.25em;
-    line-height: 1.2;
+    font-size: 1.5em;
+    line-height: 1;
     border-bottom: 1px solid #eee;
 }
 h2 {
-    font-size: 1.75em;
-    line-height: 1.225;
+    font-size: 1.25em;
+    line-height: 1;
     border-bottom: 1px solid #eee;
 }
 
@@ -150,11 +150,11 @@ h2 {
 }*/
 
 h3 {
-    font-size: 1.5em;
-    line-height: 1.43;
+    font-size: 1em;
+    line-height: 1;
 }
 h4 {
-    font-size: 1.25em;
+    font-size: 1em;
 }
 h5 {
     font-size: 1em;
@@ -413,3 +413,4 @@ header, .context-menu, .megamenu-content, footer{
     background-color: #f5f8fa;
     background-image: linear-gradient( 180deg , hsla(0, 0%, 100%, 0.8), hsla(0, 0%, 100%, 0)); 
 }
+
